@@ -1,0 +1,38 @@
+nav{
+    width: 100%;
+    /*background: #020f4f; background color of navbar header*/ 
+    color: #fff;  /* text color*/
+    padding: 4px 0; /* 4 from top and bottom left and right 0 padding is put to get space from element*/
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo {
+    width: 180px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px; /*5 from top and bottom 20 from left and right*/
+    font-size: 16px;
+}
+.btn{
+    background: #fff;
+    color: #121212; /*btn text color*/
+    padding: 14px 25px; /*top and btoom     and left and right*/
+    font-size: 16px;
+    border-radius: 30px;
+    cursor:pointer;
+    border: 0;
+    outline: 0;
+
+}
+.dark-nav{
+    background: #212EA0;
+    transition: 0.5s;
+    
+}
